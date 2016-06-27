@@ -23,7 +23,7 @@ public class EvenOddTest {
         //Act
         EvenOdd evenOdd = new EvenOdd(number);
         //Assert
-        assertTrue(evenOdd.checkEvenOdd());
+        assertTrue(evenOdd.isEven());
     }
 
     /**
@@ -39,7 +39,7 @@ public class EvenOddTest {
         //Act
         EvenOdd evenOdd = new EvenOdd(number);
         //Assert
-        assertTrue(evenOdd.checkEvenOdd());
+        assertTrue(evenOdd.isEven());
     }
 
     /**
@@ -55,7 +55,7 @@ public class EvenOddTest {
         //Act
         EvenOdd evenOdd = new EvenOdd(number);
         //Assert
-        assertFalse(evenOdd.checkEvenOdd());
+        assertFalse(evenOdd.isEven());
     }
 
     /**
@@ -71,7 +71,7 @@ public class EvenOddTest {
         //Act
         EvenOdd evenOdd = new EvenOdd(number);
         //Assert
-        assertTrue(evenOdd.checkEvenOdd());
+        assertTrue(evenOdd.isEven());
     }
 
     /**
@@ -87,6 +87,6 @@ public class EvenOddTest {
         //Act
         EvenOdd evenOdd = new EvenOdd(number);
         //Assert
-        assertFalse(evenOdd.checkEvenOdd());
+        assertFalse(evenOdd.isEven());
     }
 }

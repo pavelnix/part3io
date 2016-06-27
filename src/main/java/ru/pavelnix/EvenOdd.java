@@ -22,7 +22,7 @@ public class EvenOdd {
      * @return булевское значение true - если четное и
      * false если не четное
      */
-    public boolean checkEvenOdd() {
+    public boolean isEven() {
         boolean result;
         if (number % 2 == 0) {
             result = true;
@@ -32,7 +32,4 @@ public class EvenOdd {
         return result;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
-    }
 }

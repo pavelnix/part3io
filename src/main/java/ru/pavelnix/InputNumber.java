@@ -15,7 +15,7 @@ public class InputNumber {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number: ");
         if (scanner.hasNextInt()) {
-            if (new EvenOdd(scanner.nextInt()).checkEvenOdd()) {
+            if (new EvenOdd(scanner.nextInt()).isEven()) {
                 System.out.println("even");
             } else {
                 System.out.println("odd");
